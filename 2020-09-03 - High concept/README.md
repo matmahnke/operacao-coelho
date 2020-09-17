@@ -1,102 +1,101 @@
 2020-09-03 
 
-#Instruções para elaboração do projeto de Criação do Game – Parte I 
+# InstruÃ§Ãµes para elaboraÃ§Ã£o do projeto de CriaÃ§Ã£o do Game â€“ Parte I 
 
  
 
-#Personagem jogador  
+# Personagem jogador  
 
--O personagem é um coelho astronauta, esse personagem náo é um indivíduo específico, mas sim uma classe. Cada jogador ao entrar no jogo controlará um coelho astronauta que é capaz de explorar, manusear armas e itens, entrar em combate e captar recursos. 
+-O personagem Ã© um coelho astronauta, esse personagem nÃ¡o Ã© um indivÃ­duo especÃ­fico, mas sim uma classe. Cada jogador ao entrar no jogo controlarÃ¡ um coelho astronauta que Ã© capaz de explorar, manusear armas e itens, entrar em combate e captar recursos. 
 
-#Cenário 
+# CenÃ¡rio 
 
--O jogo se passa em uma aventura espacial, aonde o cenário é o espaço entre a estação aliada e a estação inimiga,  posicionado em meio a um cinturão de asteróides, esse espaço contém restos de naves/estações e é repleto de asteróides. 
+- O jogo se passa em uma aventura espacial, aonde o cenÃ¡rio Ã© o espaÃ§o entre a estaÃ§Ã£o aliada e a estaÃ§Ã£o inimiga,  posicionado em meio a um cinturÃ£o de asterÃ³ides, esse espaÃ§o contÃ©m restos de naves/estaÃ§Ãµes e Ã© repleto de asterÃ³ides. 
 
-#Desafio 
+# Desafio 
 
--O  objetivo do jogo é dominar e destruir a base inimiga e o inimigo tem o objetivo de destruir a base aliada, inicialmente os jogadores não tem recursos o suficiente para travar uma batalha, então o desafio é captar recursos e acumular vantagem, definir estratégias para ganhar batalhas e assim dominar a base inimiga.  
+- O  objetivo do jogo Ã© dominar e destruir a base inimiga e o inimigo tem o objetivo de destruir a base aliada, inicialmente os jogadores nÃ£o tem recursos o suficiente para travar uma batalha, entÃ£o o desafio Ã© captar recursos e acumular vantagem, definir estratÃ©gias para ganhar batalhas e assim dominar a base inimiga.  
 
-#Premiação 
+# PremiaÃ§Ã£o 
 
--Ao ganhar uma partida o jogador ganha níveis de experiência, com isso desbloqueia novos itens. 
+- Ao ganhar uma partida o jogador ganha nÃ­veis de experiÃªncia, com isso desbloqueia novos itens. 
 
- 
 
-#Requisitos do projeto 
+# Requisitos do projeto 
 
-#Defina um nome preliminar para o jogo 
+# Defina um nome preliminar para o jogo 
 
--Operação coelho 
+- OperaÃ§Ã£o coelho 
 
-#Informe os dados da equipe (nome e e-mail) 
+# Informe os dados da equipe (nome e e-mail) 
 
--Camila Carolina Bowens - ccbowens@furb.br 
+- Camila Carolina Bowens - ccbowens@furb.br 
 
--Ruan Schartz Russi - rrussi@furb.br 
+- Ruan Schartz Russi - rrussi@furb.br 
 
--Matheus Mahnke - matheusmahnke@gmail.com 
-
- 
-
-#Informe a tecnologia que será adotada 
-
--Unity - Web 
+- Matheus Mahnke - matheusmahnke@gmail.com 
 
  
 
-#Defina qual é o seu objetivo com o jogo que você pretende elaborar  
+# Informe a tecnologia que serÃ¡ adotada 
 
--Jogo multiplayer espacial com o objetivo de destuir a estação inimiga 
-
- 
-
-#Defina quantos jogadores são necessários.   
-
--modo singleplayer e multiplayer com 2 jogadores 
+- Unity - Web 
 
  
 
-#Defina qual o gênero do seu jogo. 	 
+# Defina qual Ã© o seu objetivo com o jogo que vocÃª pretende elaborar  
 
--Ação/aventura e estratégia 
-
-
-#Defina quais são os seus personagens e qualifique o tipo de personagem.  
-
--Todos os personagens são iguais 
+- Jogo multiplayer espacial com o objetivo de destuir a estaÃ§Ã£o inimiga 
 
  
-#Defina qual é a história.   
 
--A humanidade falhou e foi destruída por um vírus, com isso, coelhos originalmente de Chernobyl, imúnes ao vírus, com capacidades cognitivas evoluídas por conta das mutações, conseguiram dominar o mundo, criaram uma civilização evoluida, e utilizaram da tecnologia humana para ir ao espaço, criaram uma civilização fora da terra, o sistema solar virou terra de ninguém, coelhos piratas constantemente tentam saquear outras estações espaciais, batalhas são travadas toda a hora, principalmente no cinturão de asteróides. Cabe ao jogador decidir de que lado irá batalhar. 
+# Defina quantos jogadores sÃ£o necessÃ¡rios.   
 
-
-#Defina qual o objetivo final de seu personagem.  
-
--Destruir a estação inimiga. 
+- modo singleplayer e multiplayer com 2 jogadores 
 
  
-#Defina qual é o desafio de seu jogo. (Em alguns casos é a definição dos principais antagonistas). Defina o conflito do jogo.   
 
--Batalhar contra a equipe adversária e definir estratégias para vencer dela. 
+# Defina qual o gÃªnero do seu jogo. 	 
 
-
-#Defina as regras mais essenciais para o seu jogo.   
-
--O jogador não poderá desertar sem ser punido e sabotar aliados é crime intergalático, tudo isso sujeito a punição: Banimento espacial 
+- AÃ§Ã£o/aventura e estratÃ©gia 
 
 
-#Defina o limite do jogo (ou ambiente operacional)   
+# Defina quais sÃ£o os seus personagens e qualifique o tipo de personagem.  
 
--O limite é dado pelo tamanho do espaço acessível no cinturão de asteróides 
+- Todos os personagens sÃ£o iguais 
+
+ 
+# Defina qual Ã© a histÃ³ria.   
+
+- A humanidade falhou e foi destruÃ­da por um vÃ­rus, com isso, coelhos originalmente de Chernobyl, imÃºnes ao vÃ­rus, com capacidades cognitivas evoluÃ­das por conta das mutaÃ§Ãµes, conseguiram dominar o mundo, criaram uma civilizaÃ§Ã£o evoluida, e utilizaram da tecnologia humana para ir ao espaÃ§o, criaram uma civilizaÃ§Ã£o fora da terra, o sistema solar virou terra de ninguÃ©m, coelhos piratas constantemente tentam saquear outras estaÃ§Ãµes espaciais, batalhas sÃ£o travadas toda a hora, principalmente no cinturÃ£o de asterÃ³ides. Cabe ao jogador decidir de que lado irÃ¡ batalhar. 
 
 
-#Quais são os principais resultados durante o jogo.  
+# Defina qual o objetivo final de seu personagem.  
 
--Ganhar batalhas, dominar espaço e por fim dominar a base inimiga 
+- Destruir a estaÃ§Ã£o inimiga. 
+
+ 
+# Defina qual Ã© o desafio de seu jogo. (Em alguns casos Ã© a definiÃ§Ã£o dos principais antagonistas). Defina o conflito do jogo.   
+
+- Batalhar contra a equipe adversÃ¡ria e definir estratÃ©gias para vencer dela. 
+
+
+# Defina as regras mais essenciais para o seu jogo.   
+
+- O jogador nÃ£o poderÃ¡ desertar sem ser punido e sabotar aliados Ã© crime intergalÃ¡tico, tudo isso sujeito a puniÃ§Ã£o: Banimento espacial 
+
+
+# Defina o limite do jogo (ou ambiente operacional)   
+
+- O limite Ã© dado pelo tamanho do espaÃ§o acessÃ­vel no cinturÃ£o de asterÃ³ides 
+
+
+# Quais sÃ£o os principais resultados durante o jogo.  
+
+- Ganhar batalhas, dominar espaÃ§o e por fim dominar a base inimiga 
 
 
 
-Referências: 
+ReferÃªncias: 
 
 http://www.gamedev.com.br/forum/viewtopic.php?t=81 
