@@ -5,4 +5,4 @@
 # Hoje
 - Estamos buscando informações sobre como poderemos projetar estrutura para suportar o modo online, estamos criando o projeto inicial 2D no unity.
 - O objetivo é criar um mundo no unity, criar um objeto e interações para servir como POC para o restante do jogo; 
--Para parte de servidor o foco é realmente apenas entender como funciona
+- Para parte de servidor o foco é realmente apenas entender como funciona
