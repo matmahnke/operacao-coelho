@@ -1,0 +1,10 @@
+CODIGO-FONTE/node_modules/
+CODIGO-FONTE/.vscode/
+COFIGO-FONTE/.idea/
+COFIGO-FONTE/bundle.js
+*.log
+CODIGO-FONTE/src/**/*.js
+CODIGO-FONTE/**/*.map
+*.iml
+CODIGO-FONTE/src/*.js
+CODIGO-FONTE/.DS_Store
